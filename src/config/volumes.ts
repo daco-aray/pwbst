@@ -28,8 +28,8 @@ export const volumeConfigs = new Map<number, VolumeConfig>([
   [
     0,
     {
-      title: "Security Research",
-      listLabel: "Volume 0 - Security Research",
+      title: "Job History",
+      listLabel: "Job History - Vol 0",
       phileSort: {
         by: "order",
         direction: "asc"
@@ -37,70 +37,10 @@ export const volumeConfigs = new Map<number, VolumeConfig>([
       postscript: [
         "  ──[ 0x51 ]─────────────────────────────────────────────────────────────────//───",
         "",
-        "  What is this unseen flame of darkness whose sparks are the stars?",
+        "  ",
         "",
-        "  Tagore, Stray Birds"
+        "  "
       ]
-    }
-  ],
-  [
-    1,
-    {
-      title: "Historical Philes",
-      listLabel: "Volume 1 - Historical Philes",
-      postscript: [
-        "  ──[ EOF ]──────────────────────────────────────────────────────────────────//───",
-        "",
-        "  Life can only be understood backwards;",
-        "  but it must be lived forwards.",
-        "",
-        "  Søren Kierkegaard"
-      ],
-      phileSort: {
-        by: "date",
-        direction: "desc"
-      },
-      entryPrefix: "A"
-    }
-  ],
-  [
-    2,
-    {
-      title: "Year-End Wrap-ups",
-      listLabel: "Volume 2 - Year-End Wrap-ups",
-      postscript: [
-        "  ──[ 0x146 ]────────────────────────────────────────────────────────────────//───",
-        "",
-        "  Let this be my last word,",
-        "  that I trust in thy love.",
-        "",
-        "  Tagore, Stray Birds"
-      ],
-      phileSort: {
-        by: "date",
-        direction: "desc"
-      },
-      entryLabel: "year"
-    }
-  ],
-  [
-    3,
-    {
-      title: "Chromatic Philes",
-      listLabel: "Volume 3 - Chromatic Philes",
-      postscript: [
-        "  ──[ SGR ]──────────────────────────────────────────────────────────────────//───",
-        "",
-        "  Color is only another byte of pressure",
-        "  applied to a line that was already executable.",
-        "",
-        "  Entropic notes"
-      ],
-      phileSort: {
-        by: "date",
-        direction: "desc"
-      },
-      entryPrefix: "C"
     }
   ]
 ]);

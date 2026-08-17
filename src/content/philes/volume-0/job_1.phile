@@ -1,0 +1,32 @@
+---
+title: "Excel Nearshore"
+date: 2026-05-27
+author: "May 2023 - Feb 2025"
+order: 0
+redacted: false
+---
+
+Job History
+
+──[ 1.0 ]────────────────────────────────────────────────────────────[ Summary ]
+
+    > Improved existing APIs response times by optimizing #[R|API Management]
+      policies and Azure Functions code.
+    > Developed and maintained several #[C|Azure Function Apps] with #[G|Node.js]
+      using several libraries such as #[Y|CosmosDB API], #[C|Commercetools], #[C|Azure
+      Key Vault], etc.
+    > Developed production #[R|Logic Apps] using #[C|App Designer] and connecting
+      them to Service Bus and other Azure Resources.
+    > Managed and monitored APIs using #[Y|API Management], developing
+      several API policies to accomplish requirements provided.
+    > Fixed production issues in our frontend application using
+      #[C|React/Next.js].
+
+  ┌ Tech Stack ────────────────────────────────────────────────────────────┐
+  │ #[Y| React.js, Azure, Node.js and Typescript    ]                           │
+  └────────────────────────────────────────────────────────────────────────┘
+
+  DATES:
+  ├─ From: May 2023
+  └─ To: Feb 2025
+

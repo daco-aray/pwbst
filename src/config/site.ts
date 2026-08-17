@@ -25,75 +25,52 @@ export type SiteConfig = {
 };
 
 export const siteConfig: SiteConfig = {
-  name: "Entropic",
-  description: "Security Research Philes",
-  homeAsciiArt: `▓█████  ███▄    █ ▄▄▄█████▓ ██▀███   ▒█████   ██▓███   ██▓ ▄████▄
-▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒▓██ ▒ ██▒▒██▒  ██▒▓██░  ██▒▓██▒▒██▀ ▀█
-▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░▓██ ░▄█ ▒▒██░  ██▒▓██░ ██▓▒▒██▒▒▓█    ▄
-▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░ ▒██▀▀█▄  ▒██   ██░▒██▄█▓▒ ▒░██░▒▓▓▄ ▄██▒
-░▒████▒▒██░   ▓██░  ▒██▒ ░ ░██▓ ▒██▒░ ████▓▒░▒██▒ ░  ░░██░▒ ▓███▀ ░
-░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░   ░ ▒▓ ░▒▓░░ ▒░▒░▒░ ▒▓▒░ ░  ░░▓  ░ ░▒ ▒  ░
- ░ ░  ░░ ░░   ░ ▒░    ░      ░▒ ░ ▒░  ░ ▒ ▒░ ░▒ ░      ▒ ░  ░  ▒
-   ░      ░   ░ ░   ░        ░░   ░ ░ ░ ░ ▒  ░░        ▒ ░░
-   ░  ░         ░             ░         ░ ░            ░  ░ ░
-                                                        ░`,
+  name: "David C CV",
+  description: "Full Stack Software Developer and Game Developer",
+  homeAsciiArt: `████   ███  █   █ ███ ████      ███   ███  ████  ████  █████ ████   ███    
+█░░░█ █ ░░█ █░  █░ █░░█░░░█    █ ░░░ █ ░░█ █░░░█ █░░░█ █░░░░░█░░░█ █ ░░█   
+█░░░█░█████░█░░ █░░█░░█░░░█░   █░ ░░░█░ ░█░████░░█░░░█░████░░████░░█░ ░█░  
+█░░ █░█░░░█░░█░█ ░░█░░█░░ █░░  █░░   █░░ █░█░░█░ █░░ █░█░░░░ █░░█░ █░░ █░░ 
+████ ░█░░░█░░ █ ░ ███░████ ░░   ███   ███ ░█░░░█░████ ░█████░█░░░█░ ███ ░░ 
+ ░░░░ ░░░  ░░  ░ ░ ░░░ ░░░░ ░    ░░░   ░░░ ░░░  ░ ░░░░ ░░░░░░ ░░  ░  ░░░ ░ 
+  ░░░░  ░   ░   ░   ░░░ ░░░░      ░░░   ░░░  ░   ░ ░░░░  ░░░░░ ░   ░  ░░░  `,
   homeSections: [
     {
-      title: "TL;DR",
-      items: [
-        {
-          label: "Cybersecurity enthusiast. Idealist. Purist."
-        },
-        {
-          label: "Researcher @RaptX",
-          linkLabel: "@RaptX",
-          href: "https://raptx.org/",
-          external: true
-        },
-        { label: "My CVEs", href: "/cves/" }
-      ]
+      title: "Full Stack Software Developer and Game Developer"
     },
     {
-      title: "Philes",
+      title: "Job History",
       volumes: {
         sort: "asc",
         showEmpty: false
       }
     },
     {
-      title: "Research",
+      title: "Skills",
       items: [
-        { label: "Binary Exploitation" },
-        { label: "Windows Security" },
-        { label: "IoT Security" },
-        { label: "Automation" }
+        { label: "React.js, Express.js, Next.js, Vue and .NET" },
+        {
+          label:
+            "Azure Functions, API Management, Cosmos DB, Logic Apps, Lambda, API Gateway, DynamoDB, Terraform, Docker, Jenkins, Azure Devops, ARM Templates, Kubernetes and Github Actions"
+        },
+        { label: "PostgresQL, MySQL, Microsoft SQL Server" },
+        { label: "Devin AI, Copilot, Claude and Codex" }
       ]
     },
     {
       title: "Contact",
       items: [
-        { label: "root -at- cubeyond -dot- net" },
+        { label: "email: daco.aray@gmail.com" },
+        { label: "phone: +506-8393-3070" },
         {
-          label: "PGP Encryption Key",
-          href: "/key.asc"
+          label: "LinkedIn",
+          href: "https://www.linkedin.com/in/david-cordero-258770112/",
+          external: true
         },
         {
-          label: "github@plt",
-          href: "https://github.com/CuB3y0nd/",
-          external: true,
-          prefix: "~ call"
-        },
-        {
-          label: "memos@plt",
-          href: "https://memos.cubeyond.net/",
-          external: true,
-          prefix: "~ call"
-        },
-        {
-          label: "kofi@plt",
-          href: "https://ko-fi.com/cub3y0nd",
-          external: true,
-          prefix: "~ call"
+          label: "GitHub",
+          href: "https://github.com/daco-aray",
+          external: true
         }
       ]
     }

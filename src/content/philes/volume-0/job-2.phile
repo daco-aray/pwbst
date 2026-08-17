@@ -1,0 +1,27 @@
+---
+title: "Globant"
+date: 2026-05-27
+author: "Dec 2021 - May 2023"
+order: 0
+redacted: false
+---
+
+Job History
+
+──[ 1.0 ]────────────────────────────────────────────────────────────[ Summary ]
+
+    > Developed several micro frontends using #[Y|React.js] with
+      #[C|Typescript].
+    > Covered up to 90% of the code with Unit Tests using #[Y|React
+      Testing Library], #[R|Jest], #[C|Enzyme] and #[C|Sonar].
+    > Developed Backend for Front End (BFF) for a social
+      platform using #[R|Node], #[Y|Express.js] and #[B|GraphQL].
+
+  ┌ Tech Stack ────────────────────────────────────────────────────────────┐
+  │ #[Y| React.js, Node.js, GraphQL                 ]                           │
+  └────────────────────────────────────────────────────────────────────────┘
+
+  DATES:
+  ├─ From: Dec 2021
+  └─ To: May 2023
+

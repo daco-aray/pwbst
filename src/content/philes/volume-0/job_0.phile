@@ -1,0 +1,32 @@
+---
+title: "EX Square"
+date: 2026-05-27
+author: "May 2025 - Present"
+order: 0
+redacted: false
+---
+
+Job History
+
+──[ 1.0 ]────────────────────────────────────────────────────────────[ Summary ]
+
+    > Authored #[C|SQL scripts] for #[C|PostgreSQL] schema changes and updated
+      entities and DTOs to ensure seamless API and ORM integration both in
+      dev and production environments.
+    > Built and maintained multiple #[R|Nest.js APIs], including CRON-based bulk
+      data processing, using event-driven architectures with #[C|RabbitMQ] for
+      performance and scalability.
+    > Created several features; both front end and back end work finding the
+      right balance between AI work and hand written code, using tools as
+      #[R|Devin AI], #[R|Codex] and #[R|Claude].
+    > Fixed production bugs both in the front end and back end by checking
+      the pipeline logs in Github Actions in critical time frames.
+
+  ┌ Tech Stack ────────────────────────────────────────────────────────────┐
+  │ #[Y| Nest.js (Node.js), Typescript, Vue.js, React.js, PostgreSQL.          ]│
+  └────────────────────────────────────────────────────────────────────────┘
+
+  DATES:
+  ├─ From: May 2025
+  └─ To: Present
+
