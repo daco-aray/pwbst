@@ -4,6 +4,9 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://www.cubeyond.net/",
   vite: {
-    plugins: [tailwindcss()]
+    plugins: [tailwindcss()],
+    build: {
+      cssMinify: "esbuild"
+    }
   }
 });
